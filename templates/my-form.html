@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StreetMerchant Settings</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    div {
+      padding: 10px;
+      background-color: #f6f6f6;
+      overflow: hidden;
+    }
+    input[type=text], textarea, select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type=button]{
+      width: auto;
+      float: right;
+      cursor: pointer;
+      padding: 7px;
+    }
+  </style>
+</head>
+<body>
+<div>
+
+  <!--Add few elements to the form-->
+<h>Insert Settings! - Make sure to save</h>
+  <div>
+    <input type="text" id="ASCII_BANNER" placeholder="ASCII_BANNER" />
+    <input type="text" id="ASCII_COLOR" placeholder="ASCII_COLOR" />
+    <input type="text" id="AUTO_ADD_TO_CART" placeholder="AUTO_ADD_TO_CART" />
+    <input type="text" id="BROWSER_TRUSTED" placeholder="BROWSER_TRUSTED" />
+    <input type="text" id="COUNTRY" placeholder="COUNTRY" />
+    <input type="text" id="DESKTOP_NOTIFICATIONS" placeholder="DESKTOP_NOTIFICATIONS" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP" placeholder="DISCORD_NOTIFY_GROUP" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_3060TI" placeholder="DISCORD_NOTIFY_GROUP_3060TI" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_3070" placeholder="DISCORD_NOTIFY_GROUP_3070" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_3080" placeholder="DISCORD_NOTIFY_GROUP_3080" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_3090" placeholder="DISCORD_NOTIFY_GROUP_3090" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_CORSAIR_SF" placeholder="DISCORD_NOTIFY_GROUP_CORSAIR_SF" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RX6800" placeholder="DISCORD_NOTIFY_GROUP_RX6800" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RX6800XT" placeholder="DISCORD_NOTIFY_GROUP_RX6800XT" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RX6900XT" placeholder="DISCORD_NOTIFY_GROUP_RX6900XT" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RYZEN5600" placeholder="DISCORD_NOTIFY_GROUP_RYZEN5600" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RYZEN5800" placeholder="DISCORD_NOTIFY_GROUP_RYZEN5800" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RYZEN5900" placeholder="DISCORD_NOTIFY_GROUP_RYZEN5900" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_RYZEN5950" placeholder="DISCORD_NOTIFY_GROUP_RYZEN5950" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_SONYPS5C" placeholder="DISCORD_NOTIFY_GROUP_SONYPS5C" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_SONYPS5DE" placeholder="DISCORD_NOTIFY_GROUP_SONYPS5DE" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_XBOXSX" placeholder="DISCORD_NOTIFY_GROUP_XBOXSX" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_XBOXSS" placeholder="DISCORD_NOTIFY_GROUP_XBOXSS" />
+    <input type="text" id="DISCORD_NOTIFY_GROUP_TEST" placeholder="DISCORD_NOTIFY_GROUP_TEST" />
+    <input type="text" id="DISCORD_WEB_HOOK" placeholder="DISCORD_WEB_HOOK" />
+    <input type="text" id="EMAIL_PASSWORD" placeholder="EMAIL_PASSWORD" />
+    <input type="text" id="EMAIL_TO" placeholder="EMAIL_TO" />
+    <input type="text" id="EMAIL_USERNAME" placeholder="EMAIL_USERNAME" />
+    <input type="text" id="HEADLESS" placeholder="HEADLESS" />
+    <input type="text" id="IN_STOCK_WAIT_TIME" placeholder="IN_STOCK_WAIT_TIME" />
+    <input type="text" id="LOG_LEVEL" placeholder="LOG_LEVEL" />
+    <input type="text" id="LOW_BANDWIDTH" placeholder="LOW_BANDWIDTH" />
+    <input type="text" id="MAX_PRICE_SERIES_3060TI" placeholder="MAX_PRICE_SERIES_3060TI" />
+    <input type="text" id="MAX_PRICE_SERIES_3070" placeholder="MAX_PRICE_SERIES_3070" />
+    <input type="text" id="MAX_PRICE_SERIES_3080" placeholder="MAX_PRICE_SERIES_3080" />
+    <input type="text" id="MAX_PRICE_SERIES_3090" placeholder="MAX_PRICE_SERIES_3090" />
+    <input type="text" id="MAX_PRICE_SERIES_CORSAIR_SF" placeholder="MAX_PRICE_SERIES_CORSAIR_SF" />
+    <input type="text" id="MAX_PRICE_SERIES_RX6800" placeholder="MAX_PRICE_SERIES_RX6800" />
+    <input type="text" id="MAX_PRICE_SERIES_RX6800XT" placeholder="MAX_PRICE_SERIES_RX6800XT" />
+    <input type="text" id="MAX_PRICE_SERIES_RX6900XT" placeholder="MAX_PRICE_SERIES_RX6900XT" />
+    <input type="text" id="MAX_PRICE_SERIES_RYZEN5600" placeholder="MAX_PRICE_SERIES_RYZEN5600" />
+    <input type="text" id="MAX_PRICE_SERIES_RYZEN5800" placeholder="MAX_PRICE_SERIES_RYZEN5800" />
+    <input type="text" id="MAX_PRICE_SERIES_RYZEN5900" placeholder="MAX_PRICE_SERIES_RYZEN5900" />
+    <input type="text" id="MAX_PRICE_SERIES_RYZEN5950" placeholder="MAX_PRICE_SERIES_RYZEN5950" />
+    <input type="text" id="MAX_PRICE_SERIES_SONYPS5C" placeholder="MAX_PRICE_SERIES_SONYPS5C" />
+    <input type="text" id="MAX_PRICE_SERIES_SONYPS5DE" placeholder="MAX_PRICE_SERIES_SONYPS5DE" />
+    <input type="text" id="MAX_PRICE_SERIES_XBOXSS" placeholder="MAX_PRICE_SERIES_XBOXSS" />
+    <input type="text" id="MAX_PRICE_SERIES_XBOXSX" placeholder="MAX_PRICE_SERIES_XBOXSX" />
+    <input type="text" id="MAX_PRICE_SERIES_TEST" placeholder="MAX_PRICE_SERIES_TEST" />
+    <input type="text" id="MICROCENTER_LOCATION" placeholder="MICROCENTER_LOCATION" />
+    <input type="text" id="MQTT_BROKER_ADDRESS" placeholder="MQTT_BROKER_ADDRESS" />
+    <input type="text" id="MQTT_BROKER_PORT" placeholder="MQTT_BROKER_PORT" />
+    <input type="text" id="MQTT_CLIENT_ID" placeholder="MQTT_CLIENT_ID" />
+    <input type="text" id="MQTT_PASSWORD" placeholder="MQTT_PASSWORD" />
+    <input type="text" id="MQTT_QOS" placeholder="MQTT_QOS" />
+    <input type="text" id="MQTT_TOPIC" placeholder="MQTT_TOPIC" />
+    <input type="text" id="MQTT_USERNAME" placeholder="MQTT_USERNAME" />
+    <input type="text" id="NVIDIA_ADD_TO_CART_ATTEMPTS" placeholder="NVIDIA_ADD_TO_CART_ATTEMPTS" />
+    <input type="text" id="NVIDIA_SESSION_TTL" placeholder="NVIDIA_SESSION_TTL" />
+    <input type="text" id="OPEN_BROWSER" placeholder="OPEN_BROWSER" />
+    <input type="text" id="PAGE_BACKOFF_MIN" placeholder="PAGE_BACKOFF_MIN" />
+    <input type="text" id="PAGE_BACKOFF_MAX" placeholder="PAGE_BACKOFF_MAX" />
+    <input type="text" id="PAGE_SLEEP_MIN" placeholder="PAGE_SLEEP_MIN" />
+    <input type="text" id="PAGE_SLEEP_MAX" placeholder="PAGE_SLEEP_MAX" />
+    <input type="text" id="PAGE_TIMEOUT" placeholder="PAGE_TIMEOUT" />
+    <input type="text" id="PAGERDUTY_INTEGRATION_KEY" placeholder="PAGERDUTY_INTEGRATION_KEY" />
+    <input type="text" id="PAGERDUTY_SEVERITY" placeholder="PAGERDUTY_SEVERITY" />
+    <input type="text" id="PHILIPS_HUE_API_KEY" placeholder="PHILIPS_HUE_API_KEY" />
+    <input type="text" id="PHILIPS_HUE_CLOUD_ACCESS_TOKEN" placeholder="PHILIPS_HUE_CLOUD_ACCESS_TOKEN" />
+    <input type="text" id="PHILIPS_HUE_CLOUD_CLIENT_ID" placeholder="PHILIPS_HUE_CLOUD_CLIENT_ID" />
+    <input type="text" id="PHILIPS_HUE_CLOUD_CLIENT_SECRET" placeholder="PHILIPS_HUE_CLOUD_CLIENT_SECRET" />
+    <input type="text" id="PHILIPS_HUE_CLOUD_REFRESH_TOKEN" placeholder="PHILIPS_HUE_CLOUD_REFRESH_TOKEN" />
+    <input type="text" id="PHILIPS_HUE_LAN_BRIDGE_IP" placeholder="PHILIPS_HUE_LAN_BRIDGE_IP" />
+    <input type="text" id="PHILIPS_HUE_LIGHT_COLOR" placeholder="PHILIPS_HUE_LIGHT_COLOR" />
+    <input type="text" id="PHILIPS_HUE_LIGHT_IDS" placeholder="PHILIPS_HUE_LIGHT_IDS" />
+    <input type="text" id="PHILIPS_HUE_LIGHT_PATTERN" placeholder="PHILIPS_HUE_LIGHT_PATTERN" />
+    <input type="text" id="PHONE_CARRIER" placeholder="PHONE_CARRIER" />
+    <input type="text" id="PHONE_NUMBER" placeholder="PHONE_NUMBER" />
+    <input type="text" id="PLAY_SOUND" placeholder="PLAY_SOUND" />
+    <input type="text" id="PROXY_ADDRESS" placeholder="PROXY_ADDRESS" />
+    <input type="text" id="PROXY_PROTOCOL" placeholder="PROXY_PROTOCOL" />
+    <input type="text" id="PROXY_PORT" placeholder="PROXY_PORT" />
+    <input type="text" id="PUSHBULLET" placeholder="PUSHBULLET" />
+    <input type="text" id="PUSHOVER_EXPIRE" placeholder="PUSHOVER_EXPIRE" />
+    <input type="text" id="PUSHOVER_RETRY" placeholder="PUSHOVER_RETRY" />
+    <input type="text" id="PUSHOVER_TOKEN" placeholder="PUSHOVER_TOKEN" />
+    <input type="text" id="PUSHOVER_USER" placeholder="PUSHOVER_USER" />
+    <input type="text" id="PUSHOVER_PRIORITY" placeholder="PUSHOVER_PRIORITY" />
+    <input type="text" id="SCREENSHOT" placeholder="SCREENSHOT" />
+    <input type="text" id="SHOW_ONLY_BRANDS" placeholder="SHOW_ONLY_BRANDS" />
+    <input type="text" id="SHOW_ONLY_MODELS" placeholder="SHOW_ONLY_MODELS" />
+    <input type="text" id="SHOW_ONLY_SERIES" placeholder="SHOW_ONLY_SERIES" />
+    <input type="text" id="SLACK_CHANNEL" placeholder="SLACK_CHANNEL" />
+    <input type="text" id="SLACK_TOKEN" placeholder="SLACK_TOKEN" />
+    <input type="text" id="SMTP_ADDRESS" placeholder="SMTP_ADDRESS" />
+    <input type="text" id="SMTP_PORT" placeholder="SMTP_PORT" />
+    <input type="text" id="STORES" placeholder="STORES" />
+    <input type="text" id="TELEGRAM_ACCESS_TOKEN" placeholder="TELEGRAM_ACCESS_TOKEN" />
+    <input type="text" id="TELEGRAM_CHAT_ID" placeholder="TELEGRAM_CHAT_ID" />
+    <input type="text" id="TWILIO_ACCOUNT_SID" placeholder="TWILIO_ACCOUNT_SID" />
+    <input type="text" id="TWILIO_AUTH_TOKEN" placeholder="TWILIO_AUTH_TOKEN" />
+    <input type="text" id="TWILIO_FROM_NUMBER" placeholder="TWILIO_FROM_NUMBER" />
+    <input type="text" id="TWILIO_TO_NUMBER" placeholder="TWILIO_TO_NUMBER" />
+    <input type="text" id="TWITCH_ACCESS_TOKEN" placeholder="TWITCH_ACCESS_TOKEN" />
+    <input type="text" id="TWITCH_CHANNEL" placeholder="TWITCH_CHANNEL" />
+    <input type="text" id="TWITCH_CLIENT_ID" placeholder="TWITCH_CLIENT_ID" />
+    <input type="text" id="TWITCH_CLIENT_SECRET" placeholder="TWITCH_CLIENT_SECRET" />
+    <input type="text" id="TWITCH_REFRESH_TOKEN" placeholder="TWITCH_REFRESH_TOKEN" />
+    <input type="text" id="TWITTER_ACCESS_TOKEN_KEY" placeholder="TWITTER_ACCESS_TOKEN_KEY" />
+    <input type="text" id="TWITTER_ACCESS_TOKEN_SECRET" placeholder="TWITTER_ACCESS_TOKEN_SECRET" />
+    <input type="text" id="TWITTER_CONSUMER_KEY" placeholder="TWITTER_CONSUMER_KEY" />
+    <input type="text" id="TWITTER_CONSUMER_SECRET" placeholder="TWITTER_CONSUMER_SECRET" />
+    <input type="text" id="TWITTER_TWEET_TAGS" placeholder="TWITTER_TWEET_TAGS" />
+    <input type="text" id="WEB_PORT" placeholder="WEB_PORT" />
+
+
+
+  </div>
+  <div>
+  </div>
+
+  <!--Add to button to save the data.-->
+  <div>
+    <input type="button" id="bt" value="Save data" onclick="saveFile()" />
+  </div>
+</div>
+</body>
+<script>
+  let saveFile = () => {
+
+    // Get the data from each element on the form.
+    const ASCII_BANNER=document.getElementById('ASCII_BANNER');
+    const ASCII_COLOR=document.getElementById('ASCII_COLOR');
+    const AUTO_ADD_TO_CART=document.getElementById('AUTO_ADD_TO_CART');
+    const BROWSER_TRUSTED=document.getElementById('BROWSER_TRUSTED');
+    const COUNTRY=document.getElementById('COUNTRY');
+    const DESKTOP_NOTIFICATIONS=document.getElementById('DESKTOP_NOTIFICATIONS');
+    const DISCORD_NOTIFY_GROUP=document.getElementById('DISCORD_NOTIFY_GROUP');
+    const DISCORD_NOTIFY_GROUP_3060TI=document.getElementById('DISCORD_NOTIFY_GROUP_3060TI');
+    const DISCORD_NOTIFY_GROUP_3070=document.getElementById('DISCORD_NOTIFY_GROUP_3070');
+    const DISCORD_NOTIFY_GROUP_3080=document.getElementById('DISCORD_NOTIFY_GROUP_3080');
+    const DISCORD_NOTIFY_GROUP_3090=document.getElementById('DISCORD_NOTIFY_GROUP_3090');
+    const DISCORD_NOTIFY_GROUP_CORSAIR_SF=document.getElementById('DISCORD_NOTIFY_GROUP_CORSAIR_SF');
+    const DISCORD_NOTIFY_GROUP_RX6800=document.getElementById('DISCORD_NOTIFY_GROUP_RX6800');
+    const DISCORD_NOTIFY_GROUP_RX6800XT=document.getElementById('DISCORD_NOTIFY_GROUP_RX6800XT');
+    const DISCORD_NOTIFY_GROUP_RX6900XT=document.getElementById('DISCORD_NOTIFY_GROUP_RX6900XT');
+    const DISCORD_NOTIFY_GROUP_RYZEN5600=document.getElementById('DISCORD_NOTIFY_GROUP_RYZEN5600');
+    const DISCORD_NOTIFY_GROUP_RYZEN5800=document.getElementById('DISCORD_NOTIFY_GROUP_RYZEN5800');
+    const DISCORD_NOTIFY_GROUP_RYZEN5900=document.getElementById('DISCORD_NOTIFY_GROUP_RYZEN5900');
+    const DISCORD_NOTIFY_GROUP_RYZEN5950=document.getElementById('DISCORD_NOTIFY_GROUP_RYZEN5950');
+    const DISCORD_NOTIFY_GROUP_SONYPS5C=document.getElementById('DISCORD_NOTIFY_GROUP_SONYPS5C');
+    const DISCORD_NOTIFY_GROUP_SONYPS5DE=document.getElementById('DISCORD_NOTIFY_GROUP_SONYPS5DE');
+    const DISCORD_NOTIFY_GROUP_XBOXSX=document.getElementById('DISCORD_NOTIFY_GROUP_XBOXSX');
+    const DISCORD_NOTIFY_GROUP_XBOXSS=document.getElementById('DISCORD_NOTIFY_GROUP_XBOXSS');
+    const DISCORD_NOTIFY_GROUP_TEST=document.getElementById('DISCORD_NOTIFY_GROUP_TEST');
+    const DISCORD_WEB_HOOK=document.getElementById('DISCORD_WEB_HOOK');
+    const EMAIL_PASSWORD=document.getElementById('EMAIL_PASSWORD');
+    const EMAIL_TO=document.getElementById('EMAIL_TO');
+    const EMAIL_USERNAME=document.getElementById('EMAIL_USERNAME');
+    const HEADLESS=document.getElementById('HEADLESS');
+    const IN_STOCK_WAIT_TIME=document.getElementById('IN_STOCK_WAIT_TIME');
+    const LOG_LEVEL=document.getElementById('LOG_LEVEL');
+    const LOW_BANDWIDTH=document.getElementById('LOW_BANDWIDTH');
+    const MAX_PRICE_SERIES_3060TI=document.getElementById('MAX_PRICE_SERIES_3060TI');
+    const MAX_PRICE_SERIES_3070=document.getElementById('MAX_PRICE_SERIES_3070');
+    const MAX_PRICE_SERIES_3080=document.getElementById('MAX_PRICE_SERIES_3080');
+    const MAX_PRICE_SERIES_3090=document.getElementById('MAX_PRICE_SERIES_3090');
+    const MAX_PRICE_SERIES_CORSAIR_SF=document.getElementById('MAX_PRICE_SERIES_CORSAIR_SF');
+    const MAX_PRICE_SERIES_RX6800=document.getElementById('MAX_PRICE_SERIES_RX6800');
+    const MAX_PRICE_SERIES_RX6800XT=document.getElementById('MAX_PRICE_SERIES_RX6800XT');
+    const MAX_PRICE_SERIES_RX6900XT=document.getElementById('MAX_PRICE_SERIES_RX6900XT');
+    const MAX_PRICE_SERIES_RYZEN5600=document.getElementById('MAX_PRICE_SERIES_RYZEN5600');
+    const MAX_PRICE_SERIES_RYZEN5800=document.getElementById('MAX_PRICE_SERIES_RYZEN5800');
+    const MAX_PRICE_SERIES_RYZEN5900=document.getElementById('MAX_PRICE_SERIES_RYZEN5900');
+    const MAX_PRICE_SERIES_RYZEN5950=document.getElementById('MAX_PRICE_SERIES_RYZEN5950');
+    const MAX_PRICE_SERIES_SONYPS5C=document.getElementById('MAX_PRICE_SERIES_SONYPS5C');
+    const MAX_PRICE_SERIES_SONYPS5DE=document.getElementById('MAX_PRICE_SERIES_SONYPS5DE');
+    const MAX_PRICE_SERIES_XBOXSS=document.getElementById('MAX_PRICE_SERIES_XBOXSS');
+    const MAX_PRICE_SERIES_XBOXSX=document.getElementById('MAX_PRICE_SERIES_XBOXSX');
+    const MAX_PRICE_SERIES_TEST=document.getElementById('MAX_PRICE_SERIES_TEST');
+    const MICROCENTER_LOCATION=document.getElementById('MICROCENTER_LOCATION');
+    const MQTT_BROKER_ADDRESS=document.getElementById('MQTT_BROKER_ADDRESS');
+    const MQTT_BROKER_PORT=document.getElementById('MQTT_BROKER_PORT');
+    const MQTT_CLIENT_ID=document.getElementById('MQTT_CLIENT_ID');
+    const MQTT_PASSWORD=document.getElementById('MQTT_PASSWORD');
+    const MQTT_QOS=document.getElementById('MQTT_QOS');
+    const MQTT_TOPIC=document.getElementById('MQTT_TOPIC');
+    const MQTT_USERNAME=document.getElementById('MQTT_USERNAME');
+    const NVIDIA_ADD_TO_CART_ATTEMPTS=document.getElementById('NVIDIA_ADD_TO_CART_ATTEMPTS');
+    const NVIDIA_SESSION_TTL=document.getElementById('NVIDIA_SESSION_TTL');
+    const OPEN_BROWSER=document.getElementById('OPEN_BROWSER');
+    const PAGE_BACKOFF_MIN=document.getElementById('PAGE_BACKOFF_MIN');
+    const PAGE_BACKOFF_MAX=document.getElementById('PAGE_BACKOFF_MAX');
+    const PAGE_SLEEP_MIN=document.getElementById('PAGE_SLEEP_MIN');
+    const PAGE_SLEEP_MAX=document.getElementById('PAGE_SLEEP_MAX');
+    const PAGE_TIMEOUT=document.getElementById('PAGE_TIMEOUT');
+    const PAGERDUTY_INTEGRATION_KEY=document.getElementById('PAGERDUTY_INTEGRATION_KEY');
+    const PAGERDUTY_SEVERITY=document.getElementById('PAGERDUTY_SEVERITY');
+    const PHILIPS_HUE_API_KEY=document.getElementById('PHILIPS_HUE_API_KEY');
+    const PHILIPS_HUE_CLOUD_ACCESS_TOKEN=document.getElementById('PHILIPS_HUE_CLOUD_ACCESS_TOKEN');
+    const PHILIPS_HUE_CLOUD_CLIENT_ID=document.getElementById('PHILIPS_HUE_CLOUD_CLIENT_ID');
+    const PHILIPS_HUE_CLOUD_CLIENT_SECRET=document.getElementById('PHILIPS_HUE_CLOUD_CLIENT_SECRET');
+    const PHILIPS_HUE_CLOUD_REFRESH_TOKEN=document.getElementById('PHILIPS_HUE_CLOUD_REFRESH_TOKEN');
+    const PHILIPS_HUE_LAN_BRIDGE_IP=document.getElementById('PHILIPS_HUE_LAN_BRIDGE_IP');
+    const PHILIPS_HUE_LIGHT_COLOR=document.getElementById('PHILIPS_HUE_LIGHT_COLOR');
+    const PHILIPS_HUE_LIGHT_IDS=document.getElementById('PHILIPS_HUE_LIGHT_IDS');
+    const PHILIPS_HUE_LIGHT_PATTERN=document.getElementById('PHILIPS_HUE_LIGHT_PATTERN');
+    const PHONE_CARRIER=document.getElementById('PHONE_CARRIER');
+    const PHONE_NUMBER=document.getElementById('PHONE_NUMBER');
+    const PLAY_SOUND=document.getElementById('PLAY_SOUND');
+    const PROXY_ADDRESS=document.getElementById('PROXY_ADDRESS');
+    const PROXY_PROTOCOL=document.getElementById('PROXY_PROTOCOL');
+    const PROXY_PORT=document.getElementById('PROXY_PORT');
+    const PUSHBULLET=document.getElementById('PUSHBULLET');
+    const PUSHOVER_EXPIRE=document.getElementById('PUSHOVER_EXPIRE');
+    const PUSHOVER_RETRY=document.getElementById('PUSHOVER_RETRY');
+    const PUSHOVER_TOKEN=document.getElementById('PUSHOVER_TOKEN');
+    const PUSHOVER_USER=document.getElementById('PUSHOVER_USER');
+    const PUSHOVER_PRIORITY=document.getElementById('PUSHOVER_PRIORITY');
+    const SCREENSHOT=document.getElementById('SCREENSHOT');
+    const SHOW_ONLY_BRANDS=document.getElementById('SHOW_ONLY_BRANDS');
+    const SHOW_ONLY_MODELS=document.getElementById('SHOW_ONLY_MODELS');
+    const SHOW_ONLY_SERIES=document.getElementById('SHOW_ONLY_SERIES');
+    const SLACK_CHANNEL=document.getElementById('SLACK_CHANNEL');
+    const SLACK_TOKEN=document.getElementById('SLACK_TOKEN');
+    const SMTP_ADDRESS=document.getElementById('SMTP_ADDRESS');
+    const SMTP_PORT=document.getElementById('SMTP_PORT');
+    const STORES=document.getElementById('STORES');
+    const TELEGRAM_ACCESS_TOKEN=document.getElementById('TELEGRAM_ACCESS_TOKEN');
+    const TELEGRAM_CHAT_ID=document.getElementById('TELEGRAM_CHAT_ID');
+    const TWILIO_ACCOUNT_SID=document.getElementById('TWILIO_ACCOUNT_SID');
+    const TWILIO_AUTH_TOKEN=document.getElementById('TWILIO_AUTH_TOKEN');
+    const TWILIO_FROM_NUMBER=document.getElementById('TWILIO_FROM_NUMBER');
+    const TWILIO_TO_NUMBER=document.getElementById('TWILIO_TO_NUMBER');
+    const TWITCH_ACCESS_TOKEN=document.getElementById('TWITCH_ACCESS_TOKEN');
+    const TWITCH_CHANNEL=document.getElementById('TWITCH_CHANNEL');
+    const TWITCH_CLIENT_ID=document.getElementById('TWITCH_CLIENT_ID');
+    const TWITCH_CLIENT_SECRET=document.getElementById('TWITCH_CLIENT_SECRET');
+    const TWITCH_REFRESH_TOKEN=document.getElementById('TWITCH_REFRESH_TOKEN');
+    const TWITTER_ACCESS_TOKEN_KEY=document.getElementById('TWITTER_ACCESS_TOKEN_KEY');
+    const TWITTER_ACCESS_TOKEN_SECRET=document.getElementById('TWITTER_ACCESS_TOKEN_SECRET');
+    const TWITTER_CONSUMER_KEY=document.getElementById('TWITTER_CONSUMER_KEY');
+    const TWITTER_CONSUMER_SECRET=document.getElementById('TWITTER_CONSUMER_SECRET');
+    const TWITTER_TWEET_TAGS=document.getElementById('TWITTER_TWEET_TAGS');
+    const WEB_PORT=document.getElementById('WEB_PORT');
+
+    // This variable stores all the data.
+    let data =
+      'ASCII_BANNER' +ASCII_BANNER.value + ' \r\n ' +
+      'ASCII_COLOR' +ASCII_COLOR.value + ' \r\n ' +
+      'AUTO_ADD_TO_CART' +AUTO_ADD_TO_CART.value + ' \r\n ' +
+      'BROWSER_TRUSTED' +BROWSER_TRUSTED.value + ' \r\n ' +
+      'COUNTRY' +COUNTRY.value + ' \r\n ' +
+      'DESKTOP_NOTIFICATIONS' +DESKTOP_NOTIFICATIONS.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP' +DISCORD_NOTIFY_GROUP.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_3060TI' +DISCORD_NOTIFY_GROUP_3060TI.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_3070' +DISCORD_NOTIFY_GROUP_3070.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_3080' +DISCORD_NOTIFY_GROUP_3080.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_3090' +DISCORD_NOTIFY_GROUP_3090.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_CORSAIR_SF' +DISCORD_NOTIFY_GROUP_CORSAIR_SF.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RX6800' +DISCORD_NOTIFY_GROUP_RX6800.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RX6800XT' +DISCORD_NOTIFY_GROUP_RX6800XT.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RX6900XT' +DISCORD_NOTIFY_GROUP_RX6900XT.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RYZEN5600' +DISCORD_NOTIFY_GROUP_RYZEN5600.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RYZEN5800' +DISCORD_NOTIFY_GROUP_RYZEN5800.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RYZEN5900' +DISCORD_NOTIFY_GROUP_RYZEN5900.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_RYZEN5950' +DISCORD_NOTIFY_GROUP_RYZEN5950.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_SONYPS5C' +DISCORD_NOTIFY_GROUP_SONYPS5C.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_SONYPS5DE' +DISCORD_NOTIFY_GROUP_SONYPS5DE.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_XBOXSX' +DISCORD_NOTIFY_GROUP_XBOXSX.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_XBOXSS' +DISCORD_NOTIFY_GROUP_XBOXSS.value + ' \r\n ' +
+      'DISCORD_NOTIFY_GROUP_TEST' +DISCORD_NOTIFY_GROUP_TEST.value + ' \r\n ' +
+      'DISCORD_WEB_HOOK' +DISCORD_WEB_HOOK.value + ' \r\n ' +
+      'EMAIL_PASSWORD' +EMAIL_PASSWORD.value + ' \r\n ' +
+      'EMAIL_TO' +EMAIL_TO.value + ' \r\n ' +
+      'EMAIL_USERNAME' +EMAIL_USERNAME.value + ' \r\n ' +
+      'HEADLESS' +HEADLESS.value + ' \r\n ' +
+      'IN_STOCK_WAIT_TIME' +IN_STOCK_WAIT_TIME.value + ' \r\n ' +
+      'LOG_LEVEL' +LOG_LEVEL.value + ' \r\n ' +
+      'LOW_BANDWIDTH' +LOW_BANDWIDTH.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_3060TI' +MAX_PRICE_SERIES_3060TI.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_3070' +MAX_PRICE_SERIES_3070.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_3080' +MAX_PRICE_SERIES_3080.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_3090' +MAX_PRICE_SERIES_3090.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_CORSAIR_SF' +MAX_PRICE_SERIES_CORSAIR_SF.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RX6800' +MAX_PRICE_SERIES_RX6800.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RX6800XT' +MAX_PRICE_SERIES_RX6800XT.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RX6900XT' +MAX_PRICE_SERIES_RX6900XT.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RYZEN5600' +MAX_PRICE_SERIES_RYZEN5600.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RYZEN5800' +MAX_PRICE_SERIES_RYZEN5800.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RYZEN5900' +MAX_PRICE_SERIES_RYZEN5900.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_RYZEN5950' +MAX_PRICE_SERIES_RYZEN5950.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_SONYPS5C' +MAX_PRICE_SERIES_SONYPS5C.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_SONYPS5DE' +MAX_PRICE_SERIES_SONYPS5DE.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_XBOXSS' +MAX_PRICE_SERIES_XBOXSS.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_XBOXSX' +MAX_PRICE_SERIES_XBOXSX.value + ' \r\n ' +
+      'MAX_PRICE_SERIES_TEST' +MAX_PRICE_SERIES_TEST.value + ' \r\n ' +
+      'MICROCENTER_LOCATION' +MICROCENTER_LOCATION.value + ' \r\n ' +
+      'MQTT_BROKER_ADDRESS' +MQTT_BROKER_ADDRESS.value + ' \r\n ' +
+      'MQTT_BROKER_PORT' +MQTT_BROKER_PORT.value + ' \r\n ' +
+      'MQTT_CLIENT_ID' +MQTT_CLIENT_ID.value + ' \r\n ' +
+      'MQTT_PASSWORD' +MQTT_PASSWORD.value + ' \r\n ' +
+      'MQTT_QOS' +MQTT_QOS.value + ' \r\n ' +
+      'MQTT_TOPIC' +MQTT_TOPIC.value + ' \r\n ' +
+      'MQTT_USERNAME' +MQTT_USERNAME.value + ' \r\n ' +
+      'NVIDIA_ADD_TO_CART_ATTEMPTS' +NVIDIA_ADD_TO_CART_ATTEMPTS.value + ' \r\n ' +
+      'NVIDIA_SESSION_TTL' +NVIDIA_SESSION_TTL.value + ' \r\n ' +
+      'OPEN_BROWSER' +OPEN_BROWSER.value + ' \r\n ' +
+      'PAGE_BACKOFF_MIN' +PAGE_BACKOFF_MIN.value + ' \r\n ' +
+      'PAGE_BACKOFF_MAX' +PAGE_BACKOFF_MAX.value + ' \r\n ' +
+      'PAGE_SLEEP_MIN' +PAGE_SLEEP_MIN.value + ' \r\n ' +
+      'PAGE_SLEEP_MAX' +PAGE_SLEEP_MAX.value + ' \r\n ' +
+      'PAGE_TIMEOUT' +PAGE_TIMEOUT.value + ' \r\n ' +
+      'PAGERDUTY_INTEGRATION_KEY' +PAGERDUTY_INTEGRATION_KEY.value + ' \r\n ' +
+      'PAGERDUTY_SEVERITY' +PAGERDUTY_SEVERITY.value + ' \r\n ' +
+      'PHILIPS_HUE_API_KEY' +PHILIPS_HUE_API_KEY.value + ' \r\n ' +
+      'PHILIPS_HUE_CLOUD_ACCESS_TOKEN' +PHILIPS_HUE_CLOUD_ACCESS_TOKEN.value + ' \r\n ' +
+      'PHILIPS_HUE_CLOUD_CLIENT_ID' +PHILIPS_HUE_CLOUD_CLIENT_ID.value + ' \r\n ' +
+      'PHILIPS_HUE_CLOUD_CLIENT_SECRET' +PHILIPS_HUE_CLOUD_CLIENT_SECRET.value + ' \r\n ' +
+      'PHILIPS_HUE_CLOUD_REFRESH_TOKEN' +PHILIPS_HUE_CLOUD_REFRESH_TOKEN.value + ' \r\n ' +
+      'PHILIPS_HUE_LAN_BRIDGE_IP' +PHILIPS_HUE_LAN_BRIDGE_IP.value + ' \r\n ' +
+      'PHILIPS_HUE_LIGHT_COLOR' +PHILIPS_HUE_LIGHT_COLOR.value + ' \r\n ' +
+      'PHILIPS_HUE_LIGHT_IDS' +PHILIPS_HUE_LIGHT_IDS.value + ' \r\n ' +
+      'PHILIPS_HUE_LIGHT_PATTERN' +PHILIPS_HUE_LIGHT_PATTERN.value + ' \r\n ' +
+      'PHONE_CARRIER' +PHONE_CARRIER.value + ' \r\n ' +
+      'PHONE_NUMBER' +PHONE_NUMBER.value + ' \r\n ' +
+      'PLAY_SOUND' +PLAY_SOUND.value + ' \r\n ' +
+      'PROXY_ADDRESS' +PROXY_ADDRESS.value + ' \r\n ' +
+      'PROXY_PROTOCOL' +PROXY_PROTOCOL.value + ' \r\n ' +
+      'PROXY_PORT' +PROXY_PORT.value + ' \r\n ' +
+      'PUSHBULLET' +PUSHBULLET.value + ' \r\n ' +
+      'PUSHOVER_EXPIRE' +PUSHOVER_EXPIRE.value + ' \r\n ' +
+      'PUSHOVER_RETRY' +PUSHOVER_RETRY.value + ' \r\n ' +
+      'PUSHOVER_TOKEN' +PUSHOVER_TOKEN.value + ' \r\n ' +
+      'PUSHOVER_USER' +PUSHOVER_USER.value + ' \r\n ' +
+      'PUSHOVER_PRIORITY' +PUSHOVER_PRIORITY.value + ' \r\n ' +
+      'SCREENSHOT' +SCREENSHOT.value + ' \r\n ' +
+      'SHOW_ONLY_BRANDS' +SHOW_ONLY_BRANDS.value + ' \r\n ' +
+      'SHOW_ONLY_MODELS' +SHOW_ONLY_MODELS.value + ' \r\n ' +
+      'SHOW_ONLY_SERIES' +SHOW_ONLY_SERIES.value + ' \r\n ' +
+      'SLACK_CHANNEL' +SLACK_CHANNEL.value + ' \r\n ' +
+      'SLACK_TOKEN' +SLACK_TOKEN.value + ' \r\n ' +
+      'SMTP_ADDRESS' +SMTP_ADDRESS.value + ' \r\n ' +
+      'SMTP_PORT' +SMTP_PORT.value + ' \r\n ' +
+      'STORES' +STORES.value + ' \r\n ' +
+      'TELEGRAM_ACCESS_TOKEN' +TELEGRAM_ACCESS_TOKEN.value + ' \r\n ' +
+      'TELEGRAM_CHAT_ID' +TELEGRAM_CHAT_ID.value + ' \r\n ' +
+      'TWILIO_ACCOUNT_SID' +TWILIO_ACCOUNT_SID.value + ' \r\n ' +
+      'TWILIO_AUTH_TOKEN' +TWILIO_AUTH_TOKEN.value + ' \r\n ' +
+      'TWILIO_FROM_NUMBER' +TWILIO_FROM_NUMBER.value + ' \r\n ' +
+      'TWILIO_TO_NUMBER' +TWILIO_TO_NUMBER.value + ' \r\n ' +
+      'TWITCH_ACCESS_TOKEN' +TWITCH_ACCESS_TOKEN.value + ' \r\n ' +
+      'TWITCH_CHANNEL' +TWITCH_CHANNEL.value + ' \r\n ' +
+      'TWITCH_CLIENT_ID' +TWITCH_CLIENT_ID.value + ' \r\n ' +
+      'TWITCH_CLIENT_SECRET' +TWITCH_CLIENT_SECRET.value + ' \r\n ' +
+      'TWITCH_REFRESH_TOKEN' +TWITCH_REFRESH_TOKEN.value + ' \r\n ' +
+      'TWITTER_ACCESS_TOKEN_KEY' +TWITTER_ACCESS_TOKEN_KEY.value + ' \r\n ' +
+      'TWITTER_ACCESS_TOKEN_SECRET' +TWITTER_ACCESS_TOKEN_SECRET.value + ' \r\n ' +
+      'TWITTER_CONSUMER_KEY' +TWITTER_CONSUMER_KEY.value + ' \r\n ' +
+      'TWITTER_CONSUMER_SECRET' +TWITTER_CONSUMER_SECRET.value + ' \r\n ' +
+      'TWITTER_TWEET_TAGS' +TWITTER_TWEET_TAGS.value + ' \r\n ' +
+      'WEB_PORT' +WEB_PORT.value;
+
+    // Convert the text to BLOB.
+    const textToBLOB = new Blob([data], { type: 'text/plain' });
+    const sFileName = 'docenv';	   // The file to save the data.
+
+    let newLink = document.createElement("a");
+    newLink.download = sFileName;
+
+    if (window.webkitURL != null) {
+      newLink.href = window.webkitURL.createObjectURL(textToBLOB);
+    }
+    else {
+      newLink.href = window.URL.createObjectURL(textToBLOB);
+      newLink.style.display = "none";
+      document.body.appendChild(newLink);
+    }
+
+    newLink.click();
+  }
+</script>
+</html>
