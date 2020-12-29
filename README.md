@@ -1,6 +1,6 @@
 # StreetMerchant-Modded
 This is a mod for StreetMerchant. 
-It adds a locally hosted UI hosted with FLASK and Python.
+It adds a locally hosted UI hosted with FLASK, Python, HTML, and JavaScript.
 Will be adding auto installer soon.
 
 ## Requirements
